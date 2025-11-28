@@ -29,11 +29,16 @@ Moonfin clients enhance the standard Jellyfin experience with:
 The flagship Moonfin client for Android TV, Nvidia Shield, and Amazon Fire TV devices.
 
 **Key Features:**
-- Featured media bar with rotating content
-- Enhanced detail screens with grouped metadata
-- Circular cast photos and refined layouts
-- Improved playback controls and navigation
+- **Jellyseerr Integration** - Support for content discovery and requesting (first native Jellyfin client with Jellyseerr!)
+- **Profile-aware media bar** - Rotating featured content that respects profile permissions and refreshes on profile switch
+- **NSFW content filtering** - Automatic filtering for family-safe browsing in Jellyseerr
+- **Pre-playback track selection** - Choose audio/subtitle tracks before playback starts
+- **Enhanced detail screens** - Grouped metadata, circular cast photos, and refined layouts
+- **Customizable toolbar** - Toggle library buttons, shuffle filters, and favorites
+- **OTA updates** - Built-in update checker with automatic installation
 - Optimized for 10-foot TV viewing experience
+
+**Latest Release:** [![Release](https://img.shields.io/github/release/Moonfin-Client/AndroidTV-FireTV.svg)](https://github.com/Moonfin-Client/AndroidTV-FireTV/releases)
 
 ### 🚧 Coming Soon
 - **Moonfin for tvOS** - Enhanced experience for Apple TV devices
