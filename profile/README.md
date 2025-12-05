@@ -19,6 +19,7 @@ Moonfin clients enhance the standard Jellyfin experience with:
 
 - **Modern UI improvements** - Refined layouts, better information density, and smoother animations
 - **Enhanced media discovery** - Featured content bars, improved metadata display, and better navigation
+- **Jellyseerr Integration** - First-class support for content discovery and requesting (first native Jellyfin clients with Jellyseerr!)
 - **Platform-optimized experiences** - Each client is tailored for its specific device type
 - **Upstream compatibility** - Full compatibility with any Jellyfin server (no server modifications needed)
 - **Open source** - All improvements are available for the community to use and contribute to
@@ -29,26 +30,70 @@ Moonfin clients enhance the standard Jellyfin experience with:
 The flagship Moonfin client for Android TV, Nvidia Shield, and Amazon Fire TV devices.
 
 **Key Features:**
-- **Jellyseerr Integration** - Support for content discovery and requesting (first native Jellyfin client with Jellyseerr!)
-- **Profile-aware media bar** - Rotating featured content that respects profile permissions and refreshes on profile switch
-- **NSFW content filtering** - Automatic filtering for family-safe browsing in Jellyseerr
-- **Pre-playback track selection** - Choose audio/subtitle tracks before playback starts
-- **Enhanced detail screens** - Grouped metadata, circular cast photos, and refined layouts
-- **Customizable toolbar** - Toggle library buttons, shuffle filters, and favorites
-- **OTA updates** - Built-in update checker with automatic installation
+- **Jellyseerr Integration** - Browse trending, popular, and recommended content. Request movies/TV shows in HD or 4K
+- **NSFW Content Filtering** - Automatic filtering for family-safe browsing in Jellyseerr (configurable)
+- **Profile-aware Media Bar** - Rotating featured content that respects profile permissions and refreshes on profile switch
+- **Pre-playback Track Selection** - Choose audio/subtitle tracks before playback starts
+- **Enhanced Detail Screens** - Grouped metadata, circular cast photos, taglines, and refined layouts
+- **Customizable Toolbar** - Toggle library buttons, shuffle filters, and favorites
+- **OTA Updates** - Built-in update checker with automatic installation
 - Optimized for 10-foot TV viewing experience
 
 **Latest Release:** [![Release](https://img.shields.io/github/release/Moonfin-Client/AndroidTV-FireTV.svg)](https://github.com/Moonfin-Client/AndroidTV-FireTV/releases)
 
+**Supported Devices:** Android TV (5.0+), Nvidia Shield, Fire TV, Fire Stick, Google TV
+
+---
+
+### 📱 [Roku](https://github.com/Moonfin-Client/Roku/)
+Enhanced Jellyfin client for Roku streaming devices - the first and only Roku client with Jellyseerr support!
+
+**Key Features:**
+- **Jellyseerr Integration (Beta)** - Browse trending content, request movies/TV shows, track your requests
+- **NSFW Content Filtering** - Automatic adult content filtering with TMDB flags and keyword detection
+- **Featured Media Bar** - Auto-rotating carousel of 15 random movies/shows with ratings and overview
+- **Customizable Toolbar** - Toggle Shuffle, Genres, Favorites buttons. Show/hide library row
+- **Pre-playback Track Selection** - Choose audio/subtitle tracks before playback starts
+- **Enhanced Navigation** - Quick home/search buttons, genres menu, dynamic library buttons
+- **Lazy Loading** - Optimized performance with pagination (100 items per batch)
+- **Automatic Update Checker** - Get notified when new versions are available
+- Circular cast photos and improved metadata display
+
+**Latest Release:** [![Release](https://img.shields.io/github/release/Moonfin-Client/Roku.svg)](https://github.com/Moonfin-Client/Roku/releases)
+
+**Supported Devices:** All Roku devices (Roku OS 9.0+), Roku TV, Roku Streaming Stick, Roku Ultra, Roku Express
+
+---
+
 ### 🚧 Coming Soon
 - **Moonfin for tvOS** - Enhanced experience for Apple TV devices
-- **Moonfin Roku** - Enhanced experience for Roku devices
+- **Moonfin for LG WebOS** - Native client for LG Smart TVs
+- **Moonfin for Tizen OS** - Native client for Samsung Smart TVs
+
+## Installation & Setup
+
+Each client has its own installation method:
+
+- **Android TV / Fire TV:** Download APK from releases and sideload
+- **Roku:** Download ZIP package from releases and sideload via developer mode
+
+For detailed installation instructions, visit the specific client repository.
+
+### Optional: Jellyseerr Setup
+
+To enable media discovery and requesting in Moonfin clients:
+
+1. Install and configure [Jellyseerr](https://jellyseerr.dev/) on your network
+2. In Moonfin settings, navigate to the Jellyseerr section
+3. Enter your Jellyseerr server URL and authenticate with your Jellyfin credentials
+4. Start discovering and requesting content!
 
 ## Community & Support
 
 - **Upstream Jellyfin:** [jellyfin.org](https://jellyfin.org)
-- **Issues & Feature Requests:** [GitHub Issues](https://github.com/Moonfin-Client/AndroidTV-FireTV/issues)
-- **Discussions:** [GitHub Discussions](https://github.com/Moonfin-Client/AndroidTV-FireTV/discussions)
+- **Buy Me a Coffee:** [buymeacoffee.com/moonfin](https://www.buymeacoffee.com/moonfin)
+- **Issues & Feature Requests:** Submit in the specific client repository
+- **Discussions:** Available in each client repository
 
 ## Contributing
 
@@ -58,6 +103,7 @@ If you're interested in contributing:
 1. Check out the specific client README for build instructions
 2. Review open issues and discussions
 3. For changes that should go upstream, please coordinate with Jellyfin maintainers
+4. Follow the existing code style and conventions for each platform
 
 ## Credits
 
@@ -66,9 +112,15 @@ Moonfin builds upon:
 - **MakD's Jellyfin-Media-Bar** - Inspiration for the media bar feature
 - All the contributors to the upstream Jellyfin projects
 
+Special thanks to everyone who has supported Moonfin development through donations and feedback!
+
 ## License
 
-Moonfin clients inherit the licenses of their respective upstream projects. See individual client repositories for specific licensing information.
+Moonfin clients inherit the licenses of their respective upstream projects:
+- Android TV / Fire TV: GPL v2
+- Roku: GPL v2
+
+See individual client repositories for specific licensing information.
 
 ---
 
