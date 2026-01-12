@@ -39,7 +39,8 @@ All Moonfin clients share these enhanced features:
 
 ## Available Clients
 
-### [Android TV / Fire TV](https://github.com/Moonfin-Client/AndroidTV-FireTV/) [![Release](https://img.shields.io/github/release/Moonfin-Client/AndroidTV-FireTV.svg)](https://github.com/Moonfin-Client/AndroidTV-FireTV/releases)
+### [Android TV / Fire TV](https://github.com/Moonfin-Client/AndroidTV-FireTV/) 
+[![Release](https://img.shields.io/github/release/Moonfin-Client/AndroidTV-FireTV.svg)](https://github.com/Moonfin-Client/AndroidTV-FireTV/releases) [![github](https://img.shields.io/github/downloads/Moonfin-Client/AndroidTV-FireTV/total?logo=github&label=Downloads)](https://github.com/Moonfin-Client/AndroidTV-FireTV/releases) 
 
 **The flagship Moonfin client** for Android TV, Nvidia Shield, and Fire TV devices.
 
@@ -52,7 +53,8 @@ All Moonfin clients share these enhanced features:
 
 ---
 
-### [Roku](https://github.com/Moonfin-Client/Roku/) [![Release](https://img.shields.io/github/release/Moonfin-Client/Roku.svg)](https://github.com/Moonfin-Client/Roku/releases)
+### [Roku](https://github.com/Moonfin-Client/Roku/) 
+[![Release](https://img.shields.io/github/release/Moonfin-Client/Roku.svg)](https://github.com/Moonfin-Client/Roku/releases) [![github](https://img.shields.io/github/downloads/Moonfin-Client/Roku/total?logo=github&label=Downloads)](https://github.com/Moonfin-Client/Roku/releases) 
 
 **The first and only Roku client with Jellyseerr support!**
 
@@ -65,7 +67,8 @@ All Moonfin clients share these enhanced features:
 
 ---
 
-### [Samsung TV (Tizen)](https://github.com/Moonfin-Client/Tizen/) [![Release](https://img.shields.io/github/release/Moonfin-Client/Tizen.svg)](https://github.com/Moonfin-Client/Tizen/releases)
+### [Samsung TV (Tizen)](https://github.com/Moonfin-Client/Tizen/) 
+[![Release](https://img.shields.io/github/release/Moonfin-Client/Tizen.svg)](https://github.com/Moonfin-Client/Tizen/releases) [![github](https://img.shields.io/github/downloads/Moonfin-Client/Tizen/total?logo=github&label=Downloads)](https://github.com/Moonfin-Client/Tizen/releases)
 
 
 **Platform Highlights:**
@@ -78,7 +81,8 @@ All Moonfin clients share these enhanced features:
 
 ---
 
-### [LG TV (WebOS)](https://github.com/Moonfin-Client/WebOS/) [![Release](https://img.shields.io/github/release/Moonfin-Client/WebOS.svg)](https://github.com/Moonfin-Client/WebOS/releases)
+### [LG TV (WebOS)](https://github.com/Moonfin-Client/WebOS/) 
+[![Release](https://img.shields.io/github/release/Moonfin-Client/WebOS.svg)](https://github.com/Moonfin-Client/WebOS/releases) [![github](https://img.shields.io/github/downloads/Moonfin-Client/webOS/total?logo=github&label=Downloads)](https://github.com/Moonfin-Client/webOS/releases) 
 
 **Optimized for LG Magic Remote** with theme music and accent color customization.
 
