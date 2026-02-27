@@ -41,7 +41,7 @@ All Moonfin clients share these enhanced features:
 ## Server Plugin
 
 ### [Moonfin Plugin](https://github.com/Moonfin-Client/Plugin)
-[![Release](https://img.shields.io/github/release/Moonfin-Client/Plugin.svg)](https://github.com/Moonfin-Client/Plugin/releases)
+[![Release](https://img.shields.io/github/release/Moonfin-Client/Plugin.svg)](https://github.com/Moonfin-Client/Plugin/releases) [![github](https://img.shields.io/github/downloads/Moonfin-Client/Plugin/total?logo=github&label=Downloads)](https://github.com/Moonfin-Client/Plugin/releases) 
 
 **The backbone of the Moonfin ecosystem.** A Jellyfin server plugin used by every client that provides:
 
