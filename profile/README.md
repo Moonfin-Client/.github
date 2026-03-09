@@ -4,7 +4,7 @@
 ---
 
 <p align="center">
-   <img width="4305" height="2659" alt="splash-background" src="https://github.com/user-attachments/assets/8618363e-d982-4828-8274-a2c3c7623ddb" />
+   <img width="4305" height="2659" alt="splash-background" src="https://github.com/user-attachments/assets/c05882da-81ce-47e9-a4b2-c995c337b9b9" />
 </p>
 
 ## About Moonfin
