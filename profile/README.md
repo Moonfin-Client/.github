@@ -1,5 +1,5 @@
 <h1 align="center">Moonfin</h1>
-<h3 align="center">Enhanced media streaming clients based on <a href="https://jellyfin.org">Jellyfin</a></h3>
+<h3 align="center">Premium media streaming clients for Jellyfin and Emby</a></h3>
 
 ---
 
@@ -9,7 +9,7 @@
 
 ## About Moonfin
 
-Moonfin is a collection of enhanced Jellyfin and Emby client applications that build upon the excellent foundation of the official Jellyfin project. We focus on delivering refined user experiences, improved UI/UX, and platform-specific optimizations while maintaining full compatibility with Jellyfin and Emby servers.
+Moonfin is a collection of premium Jellyfin and Emby client applications. We focus on delivering refined user experiences, improved UI/UX, and platform-specific optimizations while maintaining full compatibility with Jellyfin and Emby servers.
 
 Our mission is to provide the best possible viewing experience across all your devices, with thoughtful enhancements that make your media library more accessible and enjoyable to use.
 
@@ -17,14 +17,14 @@ Our mission is to provide the best possible viewing experience across all your d
 
 Platform | Download | Development Repository
 ---|---|---
-Android Mobile | [Google Play Store](https://play.google.com/store/apps/details?id=org.moonfin.androidtv) | [GitHub/Moonfin-Core](https://github.com/Moonfin-Client/Moonfin-Core)
-Android TV | [Google Play Store](https://play.google.com/store/apps/details?id=org.moonfin.androidtv) | [GitHub/Moonfin-Core](https://github.com/Moonfin-Client/Moonfin-Core)
-iOS | [Apple App Store](https://apps.apple.com/app/moonfin/id6761283970) | [GitHub/Moonfin-Core](https://github.com/Moonfin-Client/Moonfin-Core)
+Android Mobile | [![Google Play](https://img.shields.io/badge/Google%20Play-grey?logo=Google+Play\&label=)](https://play.google.com/store/apps/details?id=org.moonfin.androidtv) | [GitHub/Moonfin-Core](https://github.com/Moonfin-Client/Moonfin-Core)
+Android TV | [![Google Play](https://img.shields.io/badge/Google%20Play-grey?logo=Google+Play\&label=)](https://play.google.com/store/apps/details?id=org.moonfin.androidtv) | [GitHub/Moonfin-Core](https://github.com/Moonfin-Client/Moonfin-Core)
+iOS | [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=apple&label=)](https://apps.apple.com/app/moonfin/id6761283970) | [GitHub/Moonfin-Core](https://github.com/Moonfin-Client/Moonfin-Core)
 Linux | [Latest Github Release](https://github.com/Moonfin-Client/Moonfin-Core/releases/latest) | [GitHub/Moonfin-Core](https://github.com/Moonfin-Client/Moonfin-Core)
-MacOS | [Apple App Store](https://apps.apple.com/app/moonfin/id6761283970) | [GitHub/Moonfin-Core](https://github.com/Moonfin-Client/Moonfin-Core)
-Roku | [Latest Github Release](https://github.com/Moonfin-Client/Roku/releases/latest) | [GitHub/Roku](https://github.com/Moonfin-Client/Roku)
+MacOS | [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=apple&label=)](https://apps.apple.com/app/moonfin/id6761283970) | [GitHub/Moonfin-Core](https://github.com/Moonfin-Client/Moonfin-Core)
+Roku | [![Roku](https://img.shields.io/badge/Roku-grey?logo=Roku&label=)](https://channelstore.roku.com/details/92a83c9f4112b76a7bcee3dc076254ca:3251a91bf7af7339652d5409ccfdcb39/moonfin)  | [GitHub/Roku](https://github.com/Moonfin-Client/Roku)
 Tizen | [Latest Github Release](https://github.com/Moonfin-Client/Smart-TV/releases/latest) | [GitHub/Smart-TV](https://github.com/Moonfin-Client/Smart-TV)
-tvOS | [Apple App Store](https://apps.apple.com/app/moonfin/id6761283970) | [GitHub/tvOS](https://github.com/Moonfin-Client/tvOS)
+tvOS | [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=apple&label=)](https://apps.apple.com/app/moonfin/id6761283970) | [GitHub/Moonfin-Core](https://github.com/Moonfin-Client/Moonfin-Core)
 webOS | [Latest Github Release](https://github.com/Moonfin-Client/Smart-TV/releases/latest) | [GitHub/Smart-TV](https://github.com/Moonfin-Client/Smart-TV)
 Windows | [Latest Github Release](https://github.com/Moonfin-Client/Moonfin-Core/releases/latest) | [GitHub/Moonfin-Core](https://github.com/Moonfin-Client/Moonfin-Core)
 
@@ -37,7 +37,7 @@ Moonfin clients enhance the standard Jellyfin experience with:
 - **Emby Support** - All native clients also support Emby Server 4.8.0.0+, so you can connect to Jellyfin or Emby from a single unified app
 - **Seerr Integration** - First-class support for content discovery and requesting (first **native** Jellyfin clients with Seerr!)
 - **Platform-optimized experiences** - Each client is tailored for its specific device type
-- **Server Plugin** - A companion Jellyfin server plugin that brings the Moonfin experience to Jellyfin Web and Mobile, syncs settings across all clients, and proxies Seerr and Seerr
+- **Server Plugin** - A companion Jellyfin server plugin that brings the Moonfin experience to Jellyfin Web and Mobile, syncs settings across all clients, and proxies Seerr, MDBList, and TMDB
 - **Open source** - All improvements are available for the community to use and contribute to
 
 ## Core Features (All Clients)
@@ -151,7 +151,7 @@ To add a Moonfin icon to the stock Jellyfin Web header:
 **Platform Highlights:**
 
 * **TV-Optimized Interface** - A living-room-focused Moonfin experience adapted for remote navigation, large-screen browsing, couch-friendly layouts, and Android-based TV devices
-* **Media3 / ExoPlayer Playback** - Uses Android’s Media3 / ExoPlayer playback stack for TV-focused video playback, subtitles, track selection, and hardware-backed playback behavior
+* **Media3 / ExoPlayer Playback** - Uses Android's Media3 / ExoPlayer playback stack for TV-focused video playback, subtitles, track selection, audio passthrough, and hardware-backed playback behavior
 * **Remote-First Navigation** - Sidebar navigation, focus-friendly layouts, dynamic library shortcuts, folder browsing, shuffle controls, and configurable toolbar behavior
 * **TV Playback Controls** - ASS/SSA subtitle support, subtitle delay and positioning, pre-playback audio/subtitle selection, max video resolution preference, unpause rewind, next episode countdown, trickplay scrubbing, and automatic screensaver dimming
 * **Living-Room Discovery** - Featured media, rich item details, trailers, theme music, ratings, genres, and Seerr request flows presented in a TV-friendly interface
@@ -162,18 +162,21 @@ To add a Moonfin icon to the stock Jellyfin Web header:
 
 ---
 
+### [Apple TV (tvOS)](https://github.com/Moonfin-Client/Moonfin-Core)
 
-### [tvOS](https://github.com/Moonfin-Client/tvOS)
-[![Release](https://img.shields.io/github/release/Moonfin-Client/tvOS.svg)](https://github.com/Moonfin-Client/tvOS/releases)
+[![Release](https://img.shields.io/github/release/Moonfin-Client/Moonfin-Core.svg)](https://github.com/Moonfin-Client/Moonfin-Core/releases) [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=apple&label=)](https://apps.apple.com/app/moonfin/id6761283970)
 
-**The Moonfin experience on Apple TV**, built natively in Swift and SwiftUI. Designed for the Apple TV remote and the 10-foot viewing experience.
+**The Moonfin experience on Apple TV**, now built from the shared Moonfin Core codebase (Flutter via the flutter-tvos toolchain) with a native MPVKit playback core. Previously a standalone app, the Apple TV client now shares the same home screen, themes, and settings as every other Moonfin platform while keeping a native, hardware-accelerated player tuned for the Siri Remote and the 10-foot living-room experience.
 
 **Platform Highlights:**
-- Native SwiftUI interface optimized for Apple TV remote navigation and focus engine
-- Top Shelf extension for surfacing continue-watching and featured content on the Apple TV home screen
-- Native playback and navigation tuned for the Apple TV 10-foot experience
 
-**Codec Compatibility (from tvOS README):**
+* **Shared Flutter Interface** - The same Moonfin home screen, browsing, and settings as mobile, desktop, and Android TV, tuned for the Apple TV focus engine and Siri Remote navigation
+* **Native MPVKit Playback** - Hardware-accelerated playback with Dolby Vision Profile 7 decode and Atmos passthrough, advertised only when the connected display actually supports it
+* **Living-Room Player** - Full native player OSD with trickplay, track pickers, a quality menu, cast and crew, skip intro and credits, a Still Watching prompt, and SyncPlay controls
+* **System Integration** - Top Shelf and app icon, Now Playing with remote commands, theme music, AirPlay, and a TV screensaver with idle tracking
+* **Live TV** - Live TV browsing and playback tuned for Apple TV
+
+**Codec Compatibility:**
 
 | Category | Supported Formats |
 |----------|-------------------|
@@ -187,17 +190,19 @@ To add a Moonfin icon to the stock Jellyfin Web header:
 **Supported:** Apple TV HD and Apple TV 4K (tvOS 16+)
 
 ---
+
 ### [Moonfin Core](https://github.com/Moonfin-Client/Moonfin-Core)
 
-[![Release](https://img.shields.io/github/release/Moonfin-Client/Moonfin-Core.svg)](https://github.com/Moonfin-Client/Moonfin-Core/releases) [![github](https://img.shields.io/github/downloads/Moonfin-Client/Moonfin-Core/total?logo=github\&label=Downloads)](https://github.com/Moonfin-Client/Moonfin-Core/releases) [![Google Play](https://img.shields.io/badge/Google%20Play-grey?logo=Google+Play\&label=)](https://play.google.com/store/apps/details?id=org.moonfin.androidtv)
+[![Release](https://img.shields.io/github/release/Moonfin-Client/Moonfin-Core.svg)](https://github.com/Moonfin-Client/Moonfin-Core/releases) [![github](https://img.shields.io/github/downloads/Moonfin-Client/Moonfin-Core/total?logo=github\&label=Downloads)](https://github.com/Moonfin-Client/Moonfin-Core/releases) [![Google Play](https://img.shields.io/badge/Google%20Play-grey?logo=Google+Play\&label=)](https://play.google.com/store/apps/details?id=org.moonfin.androidtv) [![App Store](https://img.shields.io/badge/App%20Store-grey?logo=apple&label=)](https://apps.apple.com/app/moonfin/id6761283970)
 
-**A unified Flutter client** for mobile, tablet, desktop, and experimental Samsung TV builds. Moonfin Core is designed for Jellyfin and Emby users who want a modern, customizable media experience across Android, iOS, macOS, Windows, Linux, and Tizen.
+**A unified Flutter client** for mobile, tablet, desktop, web, and experimental Samsung TV builds, and the shared codebase that also powers the Moonfin Android TV and Apple TV apps. Moonfin Core is designed for Jellyfin and Emby users who want a modern, customizable media experience across Android, iOS, macOS, Windows (x64 and ARM64), Linux, web, and Tizen.
 
 **Platform Highlights:**
 
-* **Cross-Platform Flutter App** - One shared Flutter codebase optimized for phones, tablets, desktop environments, and experimental Tizen / Samsung TV builds
+* **Cross-Platform Flutter App** - One shared Flutter codebase optimized for **phones, tablets, desktop environments, and web**, and shared with the Android TV and Apple TV clients plus experimental Tizen / Samsung TV builds
 * **Jellyfin & Emby Support** - Supports Jellyfin 10.8.0+ and Emby 4.8.0.0+ with unified browsing, playback, search, and library management
-* **libmpv via media_kit** - Video and audio playback powered by `media_kit` / libmpv across the main mobile and desktop platforms for broad codec, subtitle, HDR, and hardware acceleration support
+* **Per-Platform Playback Backends** - Mobile, desktop, and web use `media_kit` / libmpv for broad codec, subtitle, HDR, and hardware acceleration support, while the Android TV and Apple TV clients use native Media3/ExoPlayer and MPVKit backends respectively
+* **Web (PWA)** - Builds as an installable progressive web app served by the Moonbase server plugin, with an in-browser theme editor
 * **Tizen Playback Path** - Experimental Samsung TV builds use Tizen AVPlay through the Tizen video player stack instead of libmpv / ExoPlayer, with platform-specific limitations
 * **Downloads** - Download media as an original bit-for-bit copy or as a smaller server-transcoded file using HEVC video, AAC audio, and MP4 container presets
 * **Offline Playback** - Downloaded media is automatically organized by media type, with resume tracking, offline subtitles, and full playback controls for downloaded content
@@ -206,12 +211,12 @@ To add a Moonfin icon to the stock Jellyfin Web header:
 * **Integrated Admin Panel** - Manage server settings, users, libraries, logs, devices, and analytics directly from the client
 * **Casting & Session Control** - Includes Google Cast, DLNA, and AirPlay integration paths, plus remote playback/session controls, track selection, delay controls, queue behavior, and picture-in-picture support
 * **Advanced Playback Controls** - Subtitle and audio delay adjustment, pre-playback track selection, ongoing track control, still-watching flow, next-up handling, trickplay previews, and media segment handling
-* **Featured Media & Home Customization** - Rotating hero content, rich backdrop presentation, configurable home rows, and plugin-compatible home row preference sync
+* **Featured Media & Home Customization** - Rotating hero content, multiple media bar layouts, rich backdrop presentation, configurable home rows, a Theme Store, and plugin-compatible home row preference sync
 * **Ratings & Metadata** - Optional MDBList and TMDB ratings, TMDB episode ratings, customizable rating display, rich item details, trailers, and enhanced metadata presentation
 * **Live TV & DVR** - Live TV browsing and playback, EPG-style guide views, DVR recordings, and schedule management screens
 * **Parental Controls & PIN** - PIN-protected sensitive actions/settings and configurable content rating restrictions
 * **Automatic Updates** - Built-in update checks with configurable cadence and in-app update availability prompts
-* **Desktop Builds** - Windows installer, macOS DMG, macOS app bundle, and Linux package outputs including tarball, AppImage, deb, rpm, snap, and flatpak depending on available tooling
+* **Desktop Builds** - Windows installer (x64 and native ARM64), macOS DMG, macOS app bundle, and Linux package outputs including tarball, AppImage, deb, rpm, snap, and flatpak depending on available tooling
 * **Tizen Builds** - Experimental Samsung TV `.tpk` builds through `flutter-tizen`, Tizen Studio, and a signed Tizen security profile
 
 **Codec Compatibility (from Moonfin-Core README):**
@@ -225,10 +230,9 @@ To add a Moonfin icon to the stock Jellyfin Web header:
 | **HDR**        | Dolby Vision, HDR10+, HDR10, HLG, with automatic detection and signaling                                          |
 | **HW Accel**   | VA-API, QSV, NVENC, VideoToolbox, V4L2, RKMPP                                                                     |
 
-**Supported:** Android 6.0+ / API 23+, iOS 13.0+, macOS 10.15+, Windows 10+, Linux with GTK 3 and CMake 3.13+, Tizen 6.0+ experimental
+**Supported:** Android 6.0+ / API 23+, iOS 13.0+, macOS 10.15+, Windows 10+ (x64 and ARM64), Linux with GTK 3 and CMake 3.13+, web (installable PWA), Tizen 6.0+ experimental
 
 ---
-
 
 ### [Smart TV - Samsung (Tizen) & LG (webOS)](https://github.com/Moonfin-Client/Smart-TV/)
 [![Release](https://img.shields.io/github/release/Moonfin-Client/Smart-TV.svg)](https://github.com/Moonfin-Client/Smart-TV/releases) [![github](https://img.shields.io/github/downloads/Moonfin-Client/Smart-TV/total?logo=github&label=Downloads)](https://github.com/Moonfin-Client/Smart-TV/releases)
@@ -246,7 +250,7 @@ To add a Moonfin icon to the stock Jellyfin Web header:
 ---
 
 ### [Roku](https://github.com/Moonfin-Client/Roku/)
-[![Release](https://img.shields.io/github/release/Moonfin-Client/Roku.svg)](https://github.com/Moonfin-Client/Roku/releases) [![github](https://img.shields.io/github/downloads/Moonfin-Client/Roku/total?logo=github&label=Downloads)](https://github.com/Moonfin-Client/Roku/releases)
+[![Release](https://img.shields.io/github/release/Moonfin-Client/Roku.svg)](https://github.com/Moonfin-Client/Roku/releases) [![github](https://img.shields.io/github/downloads/Moonfin-Client/Roku/total?logo=github&label=Downloads)](https://github.com/Moonfin-Client/Roku/releases) [![Roku](https://img.shields.io/badge/Roku-grey?logo=Roku&label=)](https://channelstore.roku.com/details/92a83c9f4112b76a7bcee3dc076254ca:3251a91bf7af7339652d5409ccfdcb39/moonfin) 
 
 **An enhanced Roku client** built in BrighterScript and forked from the official Jellyfin Roku client.
 
@@ -269,7 +273,7 @@ Each client has its own installation method:
 - **Android Mobile / Android TV / Fire TV:** Download from [Google Play Store](https://play.google.com/store/apps/details?id=org.moonfin.androidtv) or grab the APK from releases and sideload (Android 6.0+)
 - **tvOS:** Download from the [App Store](https://apps.apple.com/app/moonfin/id6761283970) or sideload via TestFlight
 - **iOS / Android Mobile:** Download from the [App Store](https://apps.apple.com/app/moonfin/id6761283970) or [Play Store](https://play.google.com/store/apps/details?id=org.moonfin.androidtv), or sideload from releases
-- **macOS / Windows / Linux:** Download installer or binary from [Moonfin-Core releases](https://github.com/Moonfin-Client/Moonfin-Core/releases), Linux is also available via AUR (`yay -S moonfin`)
+- **macOS / Windows / Linux:** Download installer or binary from [Moonfin-Core releases](https://github.com/Moonfin-Client/Moonfin-Core/releases), Windows ships both x64 and native ARM64 installers, and Linux is also available via AUR (`yay -S moonfin`)
 - **Roku:** Download ZIP package from releases and sideload via developer mode (Roku OS 9.1+)
 - **Samsung TV (Tizen):** Download WGT from [Smart-TV releases](https://github.com/Moonfin-Client/Smart-TV/releases) and install via [Samsung Jellyfin Installer](https://github.com/PatrickSt1991/Samsung-Jellyfin-Installer) or Tizen Studio (Tizen 2.4+)
 - **LG TV (webOS):** Download IPK from [Smart-TV releases](https://github.com/Moonfin-Client/Smart-TV/releases) and install via webOS Dev Manager or `ares-install` (webOS 3.0+)
@@ -318,7 +322,7 @@ Special thanks to everyone who has supported Moonfin development through donatio
 
 Moonfin clients inherit the licenses of their respective upstream projects:
 - Android TV / Fire TV: GPL v2
-- Mobile & Desktop: GPL v2
+- Mobile, Desktop & Apple TV: GPL v2
 - Roku: GPL v2
 - Smart TV (Tizen & webOS): MPL 2.0
 - Plugin: GPL v3
