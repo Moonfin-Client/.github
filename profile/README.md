@@ -11,7 +11,7 @@
 
 Moonfin is a collection of premium Jellyfin and Emby client applications. We focus on refined user experiences, improved UI/UX, and platform-specific optimizations while keeping full compatibility with Jellyfin and Emby servers, so your media library is more accessible and enjoyable on every device.
 
-## All Moonfin Clients
+## All Moonfin Clients [![BuyMeACoffee](https://raw.githubusercontent.com/pachadotdev/buymeacoffee-badges/main/bmc-yellow.svg)](https://www.buymeacoffee.com/moonfin) [![Discord](https://img.shields.io/badge/Discord-Join%20Us-5865F2?logo=discord&logoColor=white)](https://discord.gg/moonfin)
 
 Platform | Download | Development Repository
 ---|---|---
@@ -24,8 +24,6 @@ Tizen | [![Release](https://img.shields.io/github/v/release/Moonfin-Client/Smart
 tvOS | [![App Store](https://img.shields.io/badge/App_Store-0D96F6?logo=app-store&logoColor=white)](https://apps.apple.com/app/moonfin/id6761283970) | [![Moonfin-Core Downloads](https://img.shields.io/github/downloads/Moonfin-Client/Moonfin-Core/total?label=Moonfin-Core%20Downloads&logo=github&logoColor=white)](https://github.com/Moonfin-Client/Moonfin-Core/releases)
 webOS | [![Release](https://img.shields.io/github/v/release/Moonfin-Client/Smart-TV?label=Release&logo=github&logoColor=white)](https://github.com/Moonfin-Client/Smart-TV/releases)<br> [![webOS](https://img.shields.io/badge/webOS-Homebrew-A50034?logo=homebrew&logoColor=white)](https://repo.webosbrew.org/apps/org.moonfin.webos/) | [![Smart-TV Downloads](https://img.shields.io/github/downloads/Moonfin-Client/Smart-TV/total?label=Smart-TV%20Downloads&logo=github&logoColor=white)](https://github.com/Moonfin-Client/Smart-TV/releases)
 Windows | [![Release](https://img.shields.io/github/v/release/Moonfin-Client/Moonfin-Core?label=Release&logo=github&logoColor=white)](https://github.com/Moonfin-Client/Moonfin-Core/releases) | [![Moonfin-Core Downloads](https://img.shields.io/github/downloads/Moonfin-Client/Moonfin-Core/total?label=Moonfin-Core%20Downloads&logo=github&logoColor=white)](https://github.com/Moonfin-Client/Moonfin-Core/releases)
-Buy Me A Coffee | [![BuyMeACoffee](https://raw.githubusercontent.com/pachadotdev/buymeacoffee-badges/main/bmc-yellow.svg)](https://www.buymeacoffee.com/moonfin)
-Discord | [![Discord](https://img.shields.io/badge/Discord-Join%20Us-5865F2?logo=discord&logoColor=white)](https://discord.gg/moonfin) | [![Discord Members](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscord.com%2Fapi%2Fv10%2Finvites%2Fmoonfin%3Fwith_counts%3Dtrue&query=%24.approximate_member_count&label=Current%20Members&logo=discord&logoColor=white&color=5865F2)](https://discord.gg/moonfin)
 
 ## What Makes Moonfin Different
 
