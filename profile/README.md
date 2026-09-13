@@ -42,9 +42,10 @@ Shared highlights across clients include a cross-server unified library, a profi
 | Project | What it is |
 |---|---|
 | **[Moonbase Plugin](https://github.com/Moonfin-Client/Plugin)** | The Jellyfin/Emby server plugin that powers the ecosystem: settings sync, Seerr proxy and SSO, shared MDBList/TMDB APIs, custom themes, and the hosted Moonfin web app. Strongly recommended for all users, and required for Seerr. |
-| **[Moonfin Core](https://github.com/Moonfin-Client/Moonfin-Core)** ([wiki](https://github.com/Moonfin-Client/Moonfin-Core/wiki)) | The unified Flutter client for Android, iOS, macOS, Windows, Linux, web, and experimental Tizen, and the shared codebase behind the Android TV and Apple TV apps. |
+| **[Moonfin Core](https://github.com/Moonfin-Client/Moonfin-Core)** ([wiki](https://github.com/Moonfin-Client/Moonfin-Core/wiki)) | The unified Flutter client for Android, iOS, macOS, Windows, Linux, and web, and the shared codebase behind the Android TV and Apple TV apps. |
 | **[Smart TV](https://github.com/Moonfin-Client/Smart-TV)** ([wiki](https://github.com/Moonfin-Client/Smart-TV/wiki)) | The Samsung (Tizen) and LG (webOS) client, built with React/Enact/Sandstone over native per-platform video pipelines. |
 | **[Roku](https://github.com/Moonfin-Client/Roku)** ([wiki](https://github.com/Moonfin-Client/Roku/wiki)) | The Roku client, built in BrighterScript and forked from the official Jellyfin Roku app. |
+| **[Themes](https://github.com/Moonfin-Client/Themes)** | The community theme catalog behind the in-app Theme Store. Every client reads its `index.json` at runtime, and new themes are contributed by pull request. |
 
 For features, codec support, install steps, and build instructions, see each project's README and wiki.
 
